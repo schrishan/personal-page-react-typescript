@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;900&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #151515;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+}
+p{
+  margin: 0 0 1.5rem;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+
+.background-video-wrp {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  z-index: -22;
+}
+.background-video-wrp #background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.background-video-wrp::before {
+  content: "";
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 101%;
+  height: 100vh;
+  background-color: rgba(21, 21, 21, 0.95);
+}
+
+#home {
+  position: relative;
+}
+
+#logo {
+  opacity: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+.para {
+  background: radial-gradient(1000px at 50% 50%, rgba(0, 255, 255, 0.7), #0072CE, #1f1f1f);
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.65s ease-in-out;
+  cursor: default;
+}
+.page-container {
+  min-height: 100vh;
+  margin: 0 0 50px;
+  position: relative;
+  padding: 35px 0 0;
+}
+  .page-container.noBackgroundVideo{
+    background-color:#151515;
+    padding: 35px 0 50px;
+    margin: 0;
+  }
+/*# sourceMappingURL=style.css.map */
