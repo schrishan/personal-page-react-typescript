@@ -40,7 +40,7 @@ const Career = () => {
   return (
     <InView as="section" className="page-container" id="career"  onChange={(inView, entry) => inView?seletedPageContext.setPage({name:'career'}):null}>
       <PageTitle>
-        Carrer
+        Career
       </PageTitle>
       <div className="content-wrp">
         <TitleIntro>Companies I have worked for in the past.</TitleIntro>

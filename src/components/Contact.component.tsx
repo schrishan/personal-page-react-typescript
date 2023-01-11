@@ -36,8 +36,8 @@ const Contact = () => {
   const seletedPageContext = useContext(SeletedPageContext); 
   return (
     <InView as="section" className="page-container" id="contact-me"  onChange={(inView, entry) => inView?seletedPageContext.setPage({name:'contact-me'}):null}>
-      <PageTitle>
-        Contact Me
+      <PageTitle alignRight={true}>
+        Contact<br />Me
       </PageTitle>
       <TitleIntro>
         Wanna discuss?

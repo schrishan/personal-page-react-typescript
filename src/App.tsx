@@ -38,7 +38,7 @@ function App() {
       <div className="background-video-wrp">
         <video id="background-video" autoPlay loop muted>
           <source
-            src="https:opterr.org/sadith/assets/videos/video-bg.mp4"
+            src="https://opterr.org/sadith/assets/videos/video-bg.mp4"
             type="video/mp4"
           />
         </video>
